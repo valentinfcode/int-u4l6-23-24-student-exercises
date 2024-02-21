@@ -1,5 +1,5 @@
-let testButton = document.getElementById("test-button");
-let result = document.getElementById("result");
+let testButton = document.querySelector("#test-button");
+let result = document.querySelector("#result");
 
 testButton.addEventListener("click", function() {
     let randomNumber = Math.floor(Math.random() * 100); // Generates a random number between 0 and 99
